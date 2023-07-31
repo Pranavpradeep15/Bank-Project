@@ -1,0 +1,116 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-left: 6px solid black;
+  margin-right: 1140px;
+}
+
+.create-btn button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color:rgba(56,124,189,255);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 1330px;
+  margin-bottom: 10px;
+}
+.create-btn button a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  border: 1px solid rgb(253, 251, 251);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   width: 90vw; 
+  margin-bottom: 100px;
+  max-width: 1400px;
+  height: 600px;
+  padding: 20px;
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+}
+
+
+.buttonblue,
+.buttonwhite {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+ .buttonblue:focus{
+  background-color: rgba(56,124,189,255);
+  color: white;
+ }
+ .buttonwhite:focus{
+  color: white;
+  background-color: rgba(56,124,189,255);
+ }
+
+
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+   
+}
+table th{
+  
+  background-color: rgba(252,252,252,255);
+}
+.table-response{
+   width: 100%;
+}
+
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.search label {
+  margin-right: 10px;
+}
+
+.search input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
+  
+}
+#containertable{
+  width: 100%;
+  border-collapse: collapse;
+  
+}
